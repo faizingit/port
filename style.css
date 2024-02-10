@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --c1:lavender;
+    /* --c2:rgb(188, 158, 158); */
+    --c2:black;
+    /* --c3:white */
+    background-color: var(--c1) ;
+}
+/* header starts */
+
+#header{
+    background-color: var(--c2);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+#header img{
+    margin: auto;
+}
+
+#heal{
+    font-size: 2rem;
+    
+}
+#heal ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em;
+    
+}
+
+#heal ul li a{
+    color: var(--c1);
+}
+input[type='button']{
+    width: 10em;
+    margin-left: auto;
+}
+/* header ends */
+
+#home{
+    /* border:1px solid red; */
+    font-size: 2rem;
+}
+
+#home{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding:2em;
+    display: flex;
+    justify-content: center;
+    line-height: 2em;
+    flex-wrap: wrap;
+}
+#home img{
+    border-radius: 2em;
+    padding-bottom: 5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    
+}
+
+#projects{
+    /* border: 1px solid red; */
+    /* height: 75rem; */
+    /* width: 200rem; */
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    /* grid-template-rows: ; */
+    /* gap: */
+    justify-content: center;
+    justify-items: center;
+    
+}
+#projects div{
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    margin: 5rem;
+}
+#form{
+    font-size: 2rem;
+    
+    
+}
+
+#form input[type='text']{
+    /* width: 10rem; */
+}
+#form form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid blue; */
+    flex-wrap: wrap;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
